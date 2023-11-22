@@ -1,0 +1,19 @@
+﻿  Loader base github.cpp
+C:\Users\std\Desktop\Loader\Loader base github\prot\protector.h(31,65): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\std\Desktop\Loader\Loader base github\antivm.h(16,26): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned long', possible loss of data
+C:\Users\std\Desktop\Loader\Loader base github\dbg.h(142,11): warning C4305: 'return': truncation from 'int' to 'bool'
+  Generating code
+C:\Users\std\Desktop\Loader\Loader base github\antivm.h(76): warning C4715: 'virtual_box_drivers': not all control paths return a value
+  327 of 908 functions (36.0%) were compiled, the rest were copied from previous compilation.
+    68 functions were new in current compilation
+    14 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+library_x64.lib(auth.obj) : warning LNK4099: PDB '' was not found with 'library_x64.lib(auth.obj)' or at ''; linking object as if no debug info
+library_x64.lib(utils.obj) : warning LNK4099: PDB '' was not found with 'library_x64.lib(utils.obj)' or at ''; linking object as if no debug info
+library_x64.lib(hmac_sha256.obj) : warning LNK4099: PDB '' was not found with 'library_x64.lib(hmac_sha256.obj)' or at ''; linking object as if no debug info
+library_x64.lib(sha256.obj) : warning LNK4099: PDB '' was not found with 'library_x64.lib(sha256.obj)' or at ''; linking object as if no debug info
+  Loader base github.vcxproj -> C:\Users\std\Desktop\Loader\Loader base github\x64\Release\Loader base github.exe

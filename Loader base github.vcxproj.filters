@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Dependencies">
+      <UniqueIdentifier>{d3cdc546-06b1-4a1f-8405-db729dc61612}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\prot">
+      <UniqueIdentifier>{7d9a119b-aa5b-481b-9d82-5baf7806e7a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\structs">
+      <UniqueIdentifier>{26281012-4e4f-4797-9d30-fa5b2d2c57fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\includes">
+      <UniqueIdentifier>{6acf6e4e-9043-4031-a78a-ff01b2425b9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\Mapper">
+      <UniqueIdentifier>{f571426e-e3b0-46b1-b27c-9c4704075804}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Auth">
+      <UniqueIdentifier>{0c1dfcd9-68f8-4114-8f20-679913bd90da}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Loader base github.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="prot\anti_debugger.h">
+      <Filter>Dependencies\prot</Filter>
+    </ClInclude>
+    <ClInclude Include="prot\antidebuggger.h">
+      <Filter>Dependencies\prot</Filter>
+    </ClInclude>
+    <ClInclude Include="prot\protector.h">
+      <Filter>Dependencies\prot</Filter>
+    </ClInclude>
+    <ClInclude Include="prot\undump.h">
+      <Filter>Dependencies\prot</Filter>
+    </ClInclude>
+    <ClInclude Include="skStr.h">
+      <Filter>Dependencies\structs</Filter>
+    </ClInclude>
+    <ClInclude Include="xor.h">
+      <Filter>Dependencies\structs</Filter>
+    </ClInclude>
+    <ClInclude Include="lazy.h">
+      <Filter>Dependencies\structs</Filter>
+    </ClInclude>
+    <ClInclude Include="load.h">
+      <Filter>main\Mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="spoof.h">
+      <Filter>main\Mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="dbg.h">
+      <Filter>Dependencies\prot</Filter>
+    </ClInclude>
+    <ClInclude Include="antivm.h">
+      <Filter>Dependencies\prot</Filter>
+    </ClInclude>
+    <ClInclude Include="process.h">
+      <Filter>Dependencies\prot</Filter>
+    </ClInclude>
+    <ClInclude Include="structs.h">
+      <Filter>Dependencies\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\auth.hpp">
+      <Filter>Auth</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="auth\libcurl.lib">
+      <Filter>Auth</Filter>
+    </Library>
+    <Library Include="auth\library_x64.lib">
+      <Filter>Auth</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
