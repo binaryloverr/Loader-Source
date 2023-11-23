@@ -181,7 +181,7 @@ int main( )
 
 	LI_FN( system ) (skCrypt ( "cls" ) );
 
-	LI_FN(Sleep)(500);
+	LI_FN( Sleep )( 500 );
 
 	LI_FN( printf ) ( skCrypt( "\n \033[0m[\033[1;31m+\033[0m]" ) );
 
